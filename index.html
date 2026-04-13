@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Meeting Minutes</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta name="description" content="Official meeting minutes and team charter for Cutie Devs.">
+    </head>
+
+    <body>
+        <header>
+            <h1>Cutie Devs Meeting Notes [2026-04-12]</h1>
+        
+            <h2>Table Of Contents</h2>
+            <nav>
+                <ul> 
+                    <li><a href="#attendance">Attendance</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#form-section">Questions/Concerns</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        
+
+        <main>
+            <section id="attendance">
+                <h2>Attendance Checklist</h2>
+                <p>Check the box for present members;</p>
+
+                <input type="checkbox" id="member1" name="attendance">
+                <label for="member1"><strong>Angelo</strong></label><br>
+
+                <input type="checkbox" id="member2" name="attendance">
+                <label for="member2"><strong>Bowen</strong></label><br>
+
+                <input type="checkbox" id="member3" name="attendance">
+                <label for="member3"><strong>Harvey</strong></label><br>
+
+                <input type="checkbox" id="member4" name="attendance">
+                <label for="member4"><strong>Jennifer</strong></label><br>
+
+                <input type="checkbox" id="member5" name="attendance">
+                <label for="member5"><strong>Jordan</strong></label><br>
+
+                <input type="checkbox" id="member6" name="attendance">
+                <label for="member6"><strong>Koji</strong></label><br>
+
+                <input type="checkbox" id="member7" name="attendance">
+                <label for="member7"><strong>Roy</strong></label><br>
+
+
+                <input type="checkbox" id="member8" name="attendance">
+                <label for="member8"><strong>Yuval</strong></label><br>
+
+                <h3>Attendance Proof;</h3>
+                <img src="screenshots/attendance_proof-04-12.png" alt="Proof of attendance" width="600">
+                
+            </section>
+
+
+            <section id="agenda">
+                <hr>
+                <h2>Meeting Agenda</h2>
+
+                <ol>
+                    <li>Introduce yourself to each other</li>
+                    <li>Create an idea of the team standards and values</li>
+                    <li>Assign roles and responsibilities within the team</li>
+                    <li>Communication team protocols</li>
+                </ol>
+            </section>
+
+            <section id="charter">
+                <h2>Team General Structure</h2>
+
+                <article>
+                    <h3>Purpose & Objectives</h3>
+                    <ul>
+                        <li>Work & Improve On Individual Skills</li>
+                        <li>Learn how to properly leverage <span>standard AI tools</span></li>
+                        <li>Familiarize yourself to standard SWE environment</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Roles & Responsibilities</h3>
+                    <p>Not set in stone, just general roles you want to work on.</p>
+                    <div>
+                        <ul>
+                            <li><strong>Team Leads:</strong> Yuval & Jordan</li>
+                            <li><strong>Note Taker:</strong> Roy</li>
+                            <li><strong>Github / Repo Admin:</strong> Bowen & Angelo</li>
+                            <li><strong>Fullstack lead:</strong> Koji</li>
+                            <li><strong>Frontend Leads:</strong> Harvey & Jenny</li>
+                            <li><strong>Backend Leads:</strong> Alec & Angelo</li>
+                            <li><strong>QA / Testing Leads:</strong> Roy & Alec</li>
+                            <li><strong>Design Lead:</strong> Fariba</li>
+    
+                        </ul>
+                    </div>
+                </article>
+
+            </section>
+
+            <section id="media">
+                <hr>
+                <h2>Media's</h2>
+                <h3> Audio Recording</h3>
+                <audio controls>
+                    <source src="screenshots/Lab2-Audio-Ex.mp3" type="audio/mpeg">
+                </audio>
+
+                <h3>Video Recording</h3>
+                <video width="400" controls>
+                    <source src="screenshots/Lab2-Video-Ex.mp4" type="video/mp4">
+                </video>
+            </section>
+
+
+            <section id="misc">
+                <hr>
+                <h2>Miscellaneous Protocols</h2>
+
+                <details>
+                    <summary>View Conflict Resolution Plan</summary>
+                    <p>Handle the conflicts individually first, if it escalates then reach out to the Team Lead (Yuval & Jordan) and then the TA (Omar).</p>
+                </details>
+
+                <details>
+                    <summary>Communication Rules</summary>
+                    <ul>
+                        <li>Response time; <i>Under 24 hours on slack</i></li>
+                        <li>Absence; notify team lead 24 hours in advance</li>
+                        <li>Main forms of communication is through <em>Slack</em></li>
+                    </ul>
+                </details>
+
+            </section>
+
+
+
+            <section id="future-plans">
+                <hr>
+                <h2>Unfinished Business</h2>
+                <ul>
+                    <li>Finalize the <b>Github Repository</b> structure</li>
+                    <li>Get a better idea of our core roles within the team</li>
+                    <li>Work on the Tech Warmup</li>
+                </ul>
+            </section>
+
+
+            <section id="form-section">
+                <hr>
+                <h2>Meeting Feedback/Concerns Form</h2>
+
+                <form>
+                    <fieldset>
+                        <legend>Submit your thoughts & concerns</legend>
+
+                        <label for="name">Your Name;</label><br>
+                        <input type="text" id="name" name="name"><br><br>
+
+                        <label for="subject">Subject Matter:</label><br>
+                        <input list="subjects" name="subject" id="subject">
+                        <datalist id="subjects">
+                            <option value="Communication">
+                            <option value="Technical">
+                            <option value="Attendance">
+                            <option value="Workload">
+
+                        </datalist><br><br>
+
+                        <label for="today">Submission Date;</label><br>
+                        <input type="date" id="today" name="today"><br><br>
+
+                        <label for="feedback-type">Type of Feedback</label><br>
+                        <select id="feedback-type" name="feedback-type">
+                            <option value="comment">General Comment</option>
+                            <option value="suggestion">Suggestion</option>
+                            <option value="complaint">Complaint</option>
+                        </select><br><br>
+
+                        <p>Urgency Level;</p>
+                        <input type="radio" id="low" name="urgency" value="low">
+                        <label for="low">Low</label>
+
+                        <input type="radio" id="med" name="urgency" value="med">
+                        <label for="med">Med</label>
+
+                        <input type="radio" id="high" name="urgency" value="high">
+                        <label for="high">High</label><br><br>
+
+                        <label for="desc">Detailed Description;</label><br>
+                        <textarea id="desc" name="desc" rows="4" cols="40"></textarea><br><br>
+
+                        <input type="checkbox" id="anonymous" name="anonymous">
+                        <label for="anonymous">I want to stay anonymous</label><br><br>
+
+                        <button type="submit">Submit Feedback</button>
+                    </fieldset>
+                </form>
+            </section>
+
+        </main>
+
+
+
+
+        <footer>
+            <hr>
+            <p>Minutes recorded by Angelo. &copy; 2026 Cutie Devs Team.</p>
+        </footer>
+
+
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
